@@ -1,0 +1,27 @@
+/* footer */
+  #ft-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  #ft-social-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+  }
+
+  a {
+    text-align: center;
+  }
+
+  #ft-cr {
+      text-align: center;
+      color:white;
+      margin: 0 20px;
+  }
+  

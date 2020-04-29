@@ -1,0 +1,122 @@
+/* author box header */
+.avatar {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @media(max-width:600px){
+    .avatar {
+      width: 30%;
+      border-radius: 50%;
+      margin-right: 8px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+  
+  @media(max-width:360px){
+    .avatar {
+      width: 40%;
+      border-radius: 50%;
+      margin-right: 8px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+  
+  .flex-avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #949494;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+/* footage blogpost */ 
+.header-blogpost {
+    background-image: url("../img/teahupoo-header.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    vertical-align: middle;
+  }
+  
+  figcaption {
+    background-color: grey;
+    opacity: 0.8;
+    margin: 14.4em 0;
+    padding: 1.5em;
+  }
+  
+  .pic-left {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: grey;
+    background-image: url("../img/surface-teahupoo-300px.jpg");
+    background-size: cover;
+    margin: 10px 20px;
+    border-radius: 10PX;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @media(max-width:768px){
+  .pic-left {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    background-image: url("../img/surface-teahupoo-300px.jpg");
+    background-size: cover;
+    margin: 2em 0 2em 0;
+    border-radius: 10PX;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  }
+  
+  .pic-right {
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-color: grey;
+    background-image: url("../img/shark-teahupoo-300px.png");
+    background-size: cover;
+    margin: 10px 20px;
+    border-radius: 10PX;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @media(max-width:768px){
+    .pic-right {
+      float: right;
+      margin: 0 0 2em 2em;
+      width: 100%;
+      height: 300px;
+      background-color: grey;
+      background-image: url("../img/shark-teahupoo-300px.png");
+      background-size: cover;
+      border-radius: 10PX;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  }
+  
+    .vid-left {
+      position: relative;
+      padding-bottom: 56.25%; 
+      height: 0;
+      border-radius: 10Px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+    .vid-left iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }

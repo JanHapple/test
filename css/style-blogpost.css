@@ -1,0 +1,26 @@
+@import "navbar.css";
+@import "style.css";
+@import "grid-blogpost.css";
+@import "pics&boxes.css";
+@import "pics&boxes-blogpost.css";
+@import "footer.css";
+@import "sidebar-blogpost.css";
+@import "nav-blogpost.css";
+@import "comments.css";
+
+/* body blogpost */
+.bdy-blog {
+  background-color: rgb(85, 85, 85);
+  opacity: 0.8;
+  padding: 1.5em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog-head {
+  background-color: rgb(85, 85, 85);
+  opacity: 0.8;
+  padding: 1.5em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

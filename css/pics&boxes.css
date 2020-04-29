@@ -1,0 +1,156 @@
+/* footage Landingpage */
+.foto-one {
+    background-image: url("../img/pic-header-surfblog.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .foto-two {
+    background-image: url("../img/teahupoo.jpg");
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+  
+  .foto-three {
+    background-image: url("../img/Algarve-surf.jpg"); 
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+  
+  .foto-four {
+    background-image: url("../img/Nazare.gif"); 
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+  
+  @media(min-width:900px){
+    .foto-four {
+      background-image: url("../img/Nazare.gif"); 
+      background-size: cover;
+      height: 400px;
+      background-position: center;
+    }
+  }
+
+  .foto-five {
+    background-image: url("../img/billabong.jpg"); 
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+  
+  .foto-six {
+    background-image: url("../img/wetsuits.jpg"); 
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+
+
+/* general text-boxes */
+.txt-box {
+    background-color: rgb(85, 85, 85);
+    opacity: 0.8;
+    padding: 1.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+
+
+/* top link boxes */
+.hd-link {
+  background-color: rgb(85, 85, 85);
+  border-left: 10px solid #ff7600;
+  opacity: 0.8;
+  padding: 0.8em;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+/* link box - related blogposts */
+.hd-link-box {
+  background-color: #949494; 
+  margin: 0; 
+  padding: 1em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rel-links {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #949494;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*
+question to reviewer:
+I tried to build the flexbox with justify-content: space-evenly.
+caused some problems with edge. I tried to figure out some sulotions
+in the web and found things like this:
+
+@supports (-ms-accelerator: true) {
+  .rel-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+No solution did work out, so I just have chosen 'space-around'.
+Is there a way to style flexboxes for edge-browser with 'space-evenly'?
+*/
+
+#link-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color: #ff7600;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+@media(max-width:600px){
+  .rel-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #link-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #ff7600;
+    margin-bottom: 2em;
+    border-radius: 10px; 
+  }
+}
+
+.img-link-box {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#link-box:hover {
+  background-color: #ffba66;
+}
